@@ -7,6 +7,8 @@ import { MainHeaderComponent } from './main-header/main-header.component';
 import { CarousalMainComponent } from './carousal-main/carousal-main.component';
 import { ReccomendationMainComponent } from './reccomendation-main/reccomendation-main.component';
 import { LoginMainComponent } from './login-main/login-main.component';
+import { Hero1Component } from './hero1/hero1.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { LoginMainComponent } from './login-main/login-main.component';
     MainHeaderComponent,
     CarousalMainComponent,
     ReccomendationMainComponent,
-    LoginMainComponent
+    LoginMainComponent,
+    Hero1Component,
+  
   ],
   imports: [
     BrowserModule,
