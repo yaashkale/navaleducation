@@ -8,6 +8,7 @@ import { CarousalMainComponent } from './carousal-main/carousal-main.component';
 import { ReccomendationMainComponent } from './reccomendation-main/reccomendation-main.component';
 import { LoginMainComponent } from './login-main/login-main.component';
 import { Hero1Component } from './hero1/hero1.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { Hero1Component } from './hero1/hero1.component';
     ReccomendationMainComponent,
     LoginMainComponent,
     Hero1Component,
+    DropdownComponent,
   
   ],
   imports: [
